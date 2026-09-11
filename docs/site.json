@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "title": "Nimbus Docs Template",
+  "description": "Build documentation from GitHub Markdown; this repository's docs/ directory is a complete example.",
+  "locale": "en",
+  "homeLabel": "Home",
+  "github": "https://github.com/Azincc/nimbus-docs-template.git",
+  "navigation": [
+    {
+      "label": "Home",
+      "link": "/"
+    },
+    {
+      "label": "Quick start",
+      "link": "/getting-started"
+    },
+    {
+      "label": "GitHub",
+      "link": "https://github.com/Azincc/nimbus-docs-template.git"
+    }
+  ],
+  "theme": {
+    "defaultMode": "system"
+  },
+  "brand": {
+    "logo": "./assets/nimbus-mark.svg",
+    "logoAlt": "Nimbus",
+    "favicon": "./assets/nimbus-mark.svg"
+  }
+}

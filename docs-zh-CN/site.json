@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "title": "Nimbus Docs Template",
+  "description": "将 GitHub 仓库中的 Markdown 发布为文档站点，完整中文示例保存在本仓库的 docs-zh-CN/ 目录中。",
+  "locale": "zh-CN",
+  "homeLabel": "首页",
+  "github": "https://github.com/Azincc/nimbus-docs-template.git",
+  "navigation": [
+    { "label": "本站首页", "link": "/" },
+    { "label": "入门", "link": "/getting-started" },
+    { "label": "仓库", "link": "https://github.com/Azincc/nimbus-docs-template.git" }
+  ],
+  "theme": {
+    "defaultMode": "system"
+  },
+  "brand": {
+    "logo": "./assets/nimbus-mark.svg",
+    "logoAlt": "Nimbus",
+    "favicon": "./assets/nimbus-mark.svg"
+  }
+}

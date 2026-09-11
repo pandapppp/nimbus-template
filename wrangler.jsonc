@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Preserve the existing deployment target in this standalone repository.
+  "name": "nimbus-template",
+  // Kept in sync with the cloudflare/templates repository linter.
+  "compatibility_date": "2025-10-08",
+  "observability": { "enabled": true },
+  "upload_source_maps": true,
+  // Public inputs only. The build reads these defaults; Build variables override them.
+  // DOCS_TOKEN belongs exclusively in Settings > Builds > Variables and secrets.
+  "vars": {
+    "DOCS_REPO": "https://github.com/Azincc/nimbus-docs-template.git",
+    "DOCS_BRANCH": "main",
+    "DOCS_PATH": "docs",
+    "DOCS_CONFIG_PATH": "docs/site.json",
+    "SITE_URL": "https://nimbus.az1n.com",
+    // "default" uses site JSON branding, falling back to the bundled Nimbus logo.
+    "SITE_LOGO": "default",
+    "SITE_FAVICON": "default"
+  },
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
